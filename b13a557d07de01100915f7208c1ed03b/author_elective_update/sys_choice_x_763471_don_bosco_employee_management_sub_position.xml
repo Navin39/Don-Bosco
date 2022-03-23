@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="sub_position" table="x_763471_don_bosco_employee_management" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sub_position</element>
+            <name>x_763471_don_bosco_employee_management</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 17:25:12</sys_created_on>
+            <sys_id>470c0b75075641100915f7208c1ed078</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sub_position</sys_name>
+            <sys_package display_value="Don Bosco | Managment" source="x_763471_don_bosco">b13a557d07de01100915f7208c1ed03b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Don Bosco | Managment">b13a557d07de01100915f7208c1ed03b</sys_scope>
+            <sys_update_name>sys_choice_x_763471_don_bosco_employee_management_sub_position</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 17:25:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tamil</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_employee_management</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 17:25:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b0c0b75075641100915f7208c1ed077</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 17:25:12</sys_updated_on>
+            <value>Tamil</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>English</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_employee_management</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 17:25:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>870c0b75075641100915f7208c1ed079</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 17:25:12</sys_updated_on>
+            <value>English</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maths</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_employee_management</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 17:25:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b0c0b75075641100915f7208c1ed07a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 17:25:12</sys_updated_on>
+            <value>Maths</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Science</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_employee_management</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 17:25:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f0c0b75075641100915f7208c1ed07b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 17:25:12</sys_updated_on>
+            <value>Science</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Social Science</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_employee_management</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 17:25:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c30cc3b5075641100915f7208c1ed02d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 17:25:12</sys_updated_on>
+            <value>Social Science</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Biology</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_employee_management</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 17:25:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>870cc3b5075641100915f7208c1ed02e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 17:25:12</sys_updated_on>
+            <value>Biology</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Computer Science</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_employee_management</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 17:25:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b0cc3b5075641100915f7208c1ed02f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 17:25:12</sys_updated_on>
+            <value>Computer Science</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Commerce</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_employee_management</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 17:25:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f0cc3b5075641100915f7208c1ed030</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 17:25:12</sys_updated_on>
+            <value>Commerce</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sub_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Physical Director</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_employee_management</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 17:25:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf0cc3b5075641100915f7208c1ed031</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 17:25:12</sys_updated_on>
+            <value>Physical Director</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

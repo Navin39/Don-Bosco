@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Don Bosco | Managment">e7b0c639075241100915f7208c1ed0fa</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Apply Leaves</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_763471_don_bosco_apply_leaves</name>
+        <order>16</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_763471_don_bosco.db_admin,x_763471_don_bosco.db_assistant_hm,x_763471_don_bosco.db_employee,x_763471_don_bosco.db_principal</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 11:56:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bbb082f9075241100915f7208c1ed032</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Apply Leaves</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Don Bosco | Managment" source="x_763471_don_bosco">b13a557d07de01100915f7208c1ed03b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Don Bosco | Managment">b13a557d07de01100915f7208c1ed03b</sys_scope>
+        <sys_update_name>sys_app_module_bbb082f9075241100915f7208c1ed032</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 17:13:24</sys_updated_on>
+        <timeline_page/>
+        <title>Apply Leaves</title>
+        <u_today_sale/>
+        <u_yesterday_sale/>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <fx_price action="delete_multiple" query="id=bbb082f9075241100915f7208c1ed032"/>
+</record_update>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="currency_denomination" table="x_763471_don_bosco_asset_s_management" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>currency_denomination</element>
+            <name>x_763471_don_bosco_asset_s_management</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 11:41:01</sys_created_on>
+            <sys_id>594df539075241100915f7208c1ed03e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>currency_denomination</sys_name>
+            <sys_package display_value="Don Bosco | Managment" source="x_763471_don_bosco">b13a557d07de01100915f7208c1ed03b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Don Bosco | Managment">b13a557d07de01100915f7208c1ed03b</sys_scope>
+            <sys_update_name>sys_choice_x_763471_don_bosco_asset_s_management_currency_denomination</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 11:41:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_denomination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CHF</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_asset_s_management</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 11:41:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>114df539075241100915f7208c1ed041</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 04:23:52</sys_updated_on>
+            <value>chf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_denomination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EURO</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_asset_s_management</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 11:41:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>394df539075241100915f7208c1ed04b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 04:23:52</sys_updated_on>
+            <value>euro</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_denomination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>POUND</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_asset_s_management</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 11:41:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>254df539075241100915f7208c1ed046</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 04:23:52</sys_updated_on>
+            <value>pound</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_denomination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SGD</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_asset_s_management</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 11:41:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>994df539075241100915f7208c1ed043</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 04:23:52</sys_updated_on>
+            <value>sgd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_denomination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USD</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_asset_s_management</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 11:41:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd4df539075241100915f7208c1ed03d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 04:23:52</sys_updated_on>
+            <value>usd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_denomination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>YEN</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_asset_s_management</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 11:41:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad4df539075241100915f7208c1ed048</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 04:23:52</sys_updated_on>
+            <value>yen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>currency_denomination</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>INR</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_asset_s_management</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-19 04:23:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27c2a10a071e41100915f7208c1ed0b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 04:23:52</sys_updated_on>
+            <value>INR</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

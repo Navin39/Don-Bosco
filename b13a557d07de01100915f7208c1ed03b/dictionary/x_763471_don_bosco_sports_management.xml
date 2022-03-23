@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sports Management " max_length="40" name="x_763471_don_bosco_sports_management" sizeclass="3" type="collection">
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Appreciate Amount" max_length="20" name="appreciate_amount" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Place" max_length="40" name="place" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Champions" value="champions"/>
+                <element inactive_on_update="false" label="Lose" value="lose"/>
+                <element inactive_on_update="false" label="Runner" value="runner"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sports" max_length="40" name="sports" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Basketball" sequence="0" value="basketball"/>
+                <element inactive_on_update="false" label="Cricket" sequence="1" value="cricket"/>
+                <element inactive_on_update="false" label="Football" sequence="2" value="football"/>
+                <element inactive_on_update="false" label="Handball" sequence="3" value="handball"/>
+                <element inactive_on_update="false" label="Bat Midden" sequence="4" value="Bat Midden"/>
+                <element inactive_on_update="false" label="Hockey" sequence="5" value="Hockey"/>
+                <element inactive_on_update="false" label="Kabadi" sequence="6" value="Kabadi"/>
+                <element inactive_on_update="false" label="Tennis" sequence="7" value="Tennis"/>
+                <element inactive_on_update="false" label="Volley ball" sequence="8" value="Volley ball"/>
+                <element inactive_on_update="false" label="Throw Ball" sequence="9" value="Throw Ball"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Teamlist" max_length="1024" name="teamlist" reference="x_763471_don_bosco_student_management" type="glide_list"/>
+    </element>
+</database>

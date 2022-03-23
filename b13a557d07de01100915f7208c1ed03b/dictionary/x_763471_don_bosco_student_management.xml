@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Student Management" max_length="40" name="x_763471_don_bosco_student_management" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="240" name="address" type="string"/>
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Blood Group" max_length="40" name="blood_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AB+" sequence="1" value="ab"/>
+                <element inactive_on_update="false" label="AB-" sequence="2" value="ab"/>
+                <element inactive_on_update="false" label="A+" sequence="3" value="a"/>
+                <element inactive_on_update="false" label="A-" sequence="4" value="A-"/>
+                <element inactive_on_update="false" label="B+" sequence="5" value="b"/>
+                <element inactive_on_update="false" label="B-" sequence="6" value="B-"/>
+                <element inactive_on_update="false" label="O-" sequence="7" value="O-"/>
+                <element inactive_on_update="false" label="O+" sequence="8" value="o"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="usd" label="Currency denomination" max_length="40" name="currency_denomination" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CHF" value="chf"/>
+                <element inactive_on_update="false" label="EURO" value="euro"/>
+                <element inactive_on_update="false" label="POUND" value="pound"/>
+                <element inactive_on_update="false" label="SGD" value="sgd"/>
+                <element inactive_on_update="false" label="USD" value="usd"/>
+                <element inactive_on_update="false" label="YEN" value="yen"/>
+            </choice>
+        </element>
+        <element label="Fee Amount" max_length="40" name="fee_amount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="female"/>
+                <element inactive_on_update="false" label="Male" value="male"/>
+                <element inactive_on_update="false" label="Others" value="others"/>
+            </choice>
+        </element>
+        <element label="Mobile.No" max_length="40" name="mobile_no" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Other Activities" max_length="40" name="other_activities" type="string">
+            <choice>
+                <element inactive_on_update="false" label="NCC" sequence="0" value="NCC"/>
+                <element inactive_on_update="false" label="Sports" sequence="1" value="Sports"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Parent's  Name" max_length="40" name="parent_s_name" type="string"/>
+        <element attributes="pdf_cell_type=image" label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Section" max_length="40" name="section" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="E" value="e"/>
+                <element inactive_on_update="false" label="A" sequence="0" value="a"/>
+                <element inactive_on_update="false" label="B" sequence="1" value="b"/>
+                <element inactive_on_update="false" label="C" sequence="2" value="c"/>
+                <element inactive_on_update="false" label="D" sequence="3" value="e"/>
+                <element inactive_on_update="false" label="F" sequence="5" value="f"/>
+                <element inactive_on_update="false" label="G" sequence="6" value="g"/>
+                <element inactive_on_update="false" label="H" sequence="7" value="H"/>
+                <element inactive_on_update="false" label="I" sequence="8" value="i"/>
+                <element inactive_on_update="false" label="J" sequence="9" value="j"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sports" max_length="40" name="sports" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Basketball" value="basketball"/>
+                <element inactive_on_update="false" label="Bat midden" value="bat_midden"/>
+                <element inactive_on_update="false" label="Cricket" value="cricket"/>
+                <element inactive_on_update="false" label="Football" value="football"/>
+                <element inactive_on_update="false" label="Handball" value="handball"/>
+                <element inactive_on_update="false" label="Hockey" value="hockey"/>
+                <element inactive_on_update="false" label="Kabadi" value="kabadi"/>
+                <element inactive_on_update="false" label="Tennis" value="tennis"/>
+                <element inactive_on_update="false" label="Throwball" value="throwball"/>
+                <element inactive_on_update="false" label="Volleyball" value="volleyball"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Standard" max_length="40" name="standard" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Student Name" max_length="40" name="student_name" type="string"/>
+    </element>
+</database>

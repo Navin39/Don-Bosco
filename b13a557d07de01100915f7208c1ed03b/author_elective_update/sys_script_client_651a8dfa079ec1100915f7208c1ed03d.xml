@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>refposition</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    var position = g_form.getReference('name');
+//     var ans = position.position;
+    alert(position);
+    g_form.setValue('position', ans);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-21 10:40:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>651a8dfa079ec1100915f7208c1ed03d</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>refposition</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Don Bosco | Managment" source="x_763471_don_bosco">b13a557d07de01100915f7208c1ed03b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Don Bosco | Managment">b13a557d07de01100915f7208c1ed03b</sys_scope>
+        <sys_update_name>sys_script_client_651a8dfa079ec1100915f7208c1ed03d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 11:16:13</sys_updated_on>
+        <table>x_763471_don_bosco_apply_leaves</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Don Bosco | Managment">b13a557d07de01100915f7208c1ed03b</application>
+        <file_path/>
+        <instance_id>a6acb9fbdb533b402f68c59705961927</instance_id>
+        <instance_name>dev92328</instance_name>
+        <name>sys_script_client_651a8dfa079ec1100915f7208c1ed03d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;name&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;refposition&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    var position = g_form.getReference('name');
+//     var ans = position.position;
+    alert(position);
+    g_form.setValue('position', ans);
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-21 10:40:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;651a8dfa079ec1100915f7208c1ed03d&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;refposition&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Don Bosco | Managment" source="x_763471_don_bosco"&gt;b13a557d07de01100915f7208c1ed03b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Don Bosco | Managment"&gt;b13a557d07de01100915f7208c1ed03b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_651a8dfa079ec1100915f7208c1ed03d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-21 11:16:13&lt;/sys_updated_on&gt;&lt;table&gt;x_763471_don_bosco_apply_leaves&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1057543146</payload_hash>
+        <record_name>refposition</record_name>
+        <reverted_from/>
+        <source>753a557d07de01100915f7208c1ed03d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-21 11:16:13</sys_created_on>
+        <sys_id>db54d9f207dec1100915f7208c1ed0e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fac311ad60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 11:16:13</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>1754d9f2b4dec110a72feb11ecc5c0e3</update_guid>
+        <update_guid_history>1754d9f2b4dec110a72feb11ecc5c0e3:-1057543146,75249df235dec1105f499f5e2754c44a:2137099070,69c399f289dec110a326f47b64a375b4:790529927,12b35df206dec11037d9d976bbb25fff:1318921139,396d49be229ec11039750c2e3d03b94d:-1323197992,99acc97eae9ec1104f4845fbd76fdade:-340159772,2d7c013e8a9ec11031a565167f2c2dd3:-760019051,a53c813ed19ec11079f3d2f42793864f:-1356210251</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-21 11:18:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1c20f2966cc0439086bfa065fa3ae040</sys_id>
+        <sys_metadata>651a8dfa079ec1100915f7208c1ed03d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>refposition</sys_name>
+        <sys_package display_value="Don Bosco | Managment" source="x_763471_don_bosco">b13a557d07de01100915f7208c1ed03b</sys_package>
+        <sys_parent display_value="Apply Leaves">b7600eb9075241100915f7208c1ed085</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Don Bosco | Managment">b13a557d07de01100915f7208c1ed03b</sys_scope>
+        <sys_scope_delete display_value="">165492de51ba4fea83ac9596f2d384c9</sys_scope_delete>
+        <sys_update_name>sys_script_client_651a8dfa079ec1100915f7208c1ed03d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_651a8dfa079ec1100915f7208c1ed03d">db54d9f207dec1100915f7208c1ed0e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 11:18:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

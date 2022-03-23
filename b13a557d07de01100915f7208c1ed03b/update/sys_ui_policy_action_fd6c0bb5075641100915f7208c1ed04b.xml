@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>sub_position</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 17:27:15</sys_created_on>
+        <sys_id>fd6c0bb5075641100915f7208c1ed04b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sub_position</sys_name>
+        <sys_package display_value="Don Bosco | Managment" source="x_763471_don_bosco">b13a557d07de01100915f7208c1ed03b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Don Bosco | Managment">b13a557d07de01100915f7208c1ed03b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_fd6c0bb5075641100915f7208c1ed04b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 17:27:39</sys_updated_on>
+        <table>x_763471_don_bosco_employee_management</table>
+        <ui_policy display_value="Position is Teacher">232c47b5075641100915f7208c1ed052</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

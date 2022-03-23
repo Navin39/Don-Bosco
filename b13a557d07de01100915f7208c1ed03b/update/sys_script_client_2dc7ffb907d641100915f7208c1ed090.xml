@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sports</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Appreciatecellsport</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+    var saveAndClose = true;
+    //Type appropriate comment here, and begin script below
+    if (g_user.hasRole('x_763471_don_bosco.db_principal') || g_user.hasRole('x_763471_don_bosco.db_clerk') || g_user.hasRole('x_763471_don_bosco.db_assistant_hm') || g_user.hasRole('x_763471_don_bosco.db_accountant')) {
+        g_form.setReadOnly('appreciate_amount', true);
+        g_form.setReadOnly('sports', true);
+        g_form.setReadOnly('place', true);
+        g_form.setReadOnly('teamlist', true);
+        saveAndClose = false;
+    } else if (g_user.hasRole('x_763471_don_bosco.db_sportshead')) {
+        g_form.setReadOnly('appreciate_amount', true);
+        saveAndClose = false;
+    }
+    callback(saveAndClose);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 20:36:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2dc7ffb907d641100915f7208c1ed090</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Appreciatecellsport</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Don Bosco | Managment" source="x_763471_don_bosco">b13a557d07de01100915f7208c1ed03b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Don Bosco | Managment">b13a557d07de01100915f7208c1ed03b</sys_scope>
+        <sys_update_name>sys_script_client_2dc7ffb907d641100915f7208c1ed090</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-19 07:44:54</sys_updated_on>
+        <table>x_763471_don_bosco_sports_management</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

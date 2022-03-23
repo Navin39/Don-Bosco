@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Accounting Management" max_length="40" name="x_763471_don_bosco_accounting_management" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Accept Expenses" max_length="40" name="accept_expenses" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Accept" value="accept"/>
+                <element inactive_on_update="false" label="Waiting" value="waiting"/>
+            </choice>
+        </element>
+        <element label="Appreciate Expenses" max_length="40" name="appreciate_expenses" type="string"/>
+        <element label="Asset's Expenses" max_length="40" name="asset_s_expenses" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="usd" label="Currency denomination" max_length="40" name="currency_denomination" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CHF" value="chf"/>
+                <element inactive_on_update="false" label="EURO" value="euro"/>
+                <element inactive_on_update="false" label="INR" value="inr"/>
+                <element inactive_on_update="false" label="POUND" value="pound"/>
+                <element inactive_on_update="false" label="SGD" value="sgd"/>
+                <element inactive_on_update="false" label="USD" value="usd"/>
+                <element inactive_on_update="false" label="YEN" value="yen"/>
+            </choice>
+        </element>
+        <element label="Donations" max_length="40" name="donations" type="string"/>
+        <element label="Employee Salary" max_length="40" name="employee_salary" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="jan" label="Month" max_length="40" name="month" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Apr" value="apr"/>
+                <element inactive_on_update="false" label="Aug" value="aug"/>
+                <element inactive_on_update="false" label="Dec" value="dec"/>
+                <element inactive_on_update="false" label="Feb" value="feb"/>
+                <element inactive_on_update="false" label="Jan" value="jan"/>
+                <element inactive_on_update="false" label="Jul" value="jul"/>
+                <element inactive_on_update="false" label="Jun" value="jun"/>
+                <element inactive_on_update="false" label="Mar" value="mar"/>
+                <element inactive_on_update="false" label="May" value="may"/>
+                <element inactive_on_update="false" label="Nov" value="nov"/>
+                <element inactive_on_update="false" label="Oct" value="oct"/>
+                <element inactive_on_update="false" label="Sep" value="sep"/>
+            </choice>
+        </element>
+        <element label="Other Expenses" max_length="40" name="other_expenses" type="string"/>
+        <element label="Student Fees" max_length="40" name="student_fees" type="string"/>
+        <element label="Total Expenses" max_length="40" name="total_expenses" type="string"/>
+    </element>
+</database>

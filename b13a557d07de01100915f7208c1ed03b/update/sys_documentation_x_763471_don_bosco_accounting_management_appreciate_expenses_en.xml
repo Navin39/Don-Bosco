@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="appreciate_expenses" label="Appreciate Expenses" language="en" table="x_763471_don_bosco_accounting_management">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>appreciate_expenses</element>
+            <help/>
+            <hint/>
+            <label>Appreciate Expenses</label>
+            <language>en</language>
+            <name>x_763471_don_bosco_accounting_management</name>
+            <plural>Appreciate Expenses</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 10:01:26</sys_created_on>
+            <sys_id>6e7669f5071241100915f7208c1ed0de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Appreciate Expenses</sys_name>
+            <sys_package display_value="Don Bosco | Managment" source="x_763471_don_bosco">b13a557d07de01100915f7208c1ed03b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Don Bosco | Managment">b13a557d07de01100915f7208c1ed03b</sys_scope>
+            <sys_update_name>sys_documentation_x_763471_don_bosco_accounting_management_appreciate_expenses_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 10:01:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

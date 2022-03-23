@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee Management" max_length="40" name="x_763471_don_bosco_employee_management" sizeclass="8" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="240" name="address" type="string"/>
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Blood Group" max_length="40" name="blood_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="B+" sequence="0" value="B+"/>
+                <element inactive_on_update="false" label="A-" sequence="1" value="a"/>
+                <element inactive_on_update="false" label="AB-" sequence="2" value="ab"/>
+                <element inactive_on_update="false" label="A+" sequence="3" value="A+"/>
+                <element inactive_on_update="false" label="B-" sequence="4" value="b"/>
+                <element inactive_on_update="false" label="O-" sequence="5" value="o"/>
+                <element inactive_on_update="false" label="AB+" sequence="6" value="AB+"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="asset_type" choice_table="x_763471_don_bosco_asset_s_management" label="Demo" max_length="40" name="demo" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ten" value="10"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="50" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="female"/>
+                <element inactive_on_update="false" label="Male" value="male"/>
+                <element inactive_on_update="false" label="Others" value="others"/>
+            </choice>
+        </element>
+        <element label="Mobile.No" max_length="40" name="mobile_no" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="pdf_cell_type=image" label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Position" max_length="40" name="position" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Accountant" sequence="0" value="accountant"/>
+                <element inactive_on_update="false" label="Assistant HM" sequence="1" value="assistant_hm"/>
+                <element inactive_on_update="false" label="Manager" sequence="2" value="manager"/>
+                <element inactive_on_update="false" label="Principal" sequence="3" value="principal"/>
+                <element inactive_on_update="false" label="Teacher" sequence="4" value="teacher"/>
+                <element inactive_on_update="false" label="Clerk" sequence="5" value="Clerk"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Salary" max_length="20" name="salary" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="section" choice_table="x_763471_don_bosco_student_management" dependent="gender" dependent_on_field="gender" label="Student" max_length="40" name="student" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sub position" max_length="40" name="sub_position" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Tamil" sequence="0" value="Tamil"/>
+                <element inactive_on_update="false" label="English" sequence="1" value="English"/>
+                <element inactive_on_update="false" label="Maths" sequence="2" value="Maths"/>
+                <element inactive_on_update="false" label="Science" sequence="3" value="Science"/>
+                <element inactive_on_update="false" label="Social Science" sequence="4" value="Social Science"/>
+                <element inactive_on_update="false" label="Biology" sequence="5" value="Biology"/>
+                <element inactive_on_update="false" label="Computer Science" sequence="6" value="Computer Science"/>
+                <element inactive_on_update="false" label="Commerce" sequence="7" value="Commerce"/>
+                <element inactive_on_update="false" label="Physical Director" sequence="8" value="Physical Director"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Apply Leaves" max_length="40" name="x_763471_don_bosco_apply_leaves" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval" max_length="40" name="approval" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Accepted" value="accepted"/>
+                <element inactive_on_update="false" label="Not accepted" value="not_accepted"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Employee name" max_length="32" name="employee_name" reference="x_763471_don_bosco_employee_management" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Leave date" max_length="40" name="leave_date" type="glide_date"/>
+        <element choice="1" dependent="leave_type" dependent_on_field="leave_type" label="Leave days" max_length="40" name="leave_days" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Seek" inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element dependent_value="Seek" inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element dependent_value="Seek" inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element dependent_value="Seek" inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element dependent_value="Seek" inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element dependent_value="Lose of pay" inactive_on_update="false" label="1" sequence="5" value="6"/>
+                <element dependent_value="Lose of pay" inactive_on_update="false" label="2" sequence="6" value="7"/>
+                <element dependent_value="Casual" inactive_on_update="false" label="1" sequence="7" value="8"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Leave type" max_length="40" name="leave_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Casual" sequence="0" value="Casual"/>
+                <element inactive_on_update="false" label="Seek" sequence="1" value="Seek"/>
+                <element inactive_on_update="false" label="Lose of pay" sequence="2" value="Lose of pay"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Position" max_length="40" name="position" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason" max_length="280" name="reason" type="string"/>
+        <index name="index">
+            <element name="employee_name"/>
+        </index>
+    </element>
+</database>

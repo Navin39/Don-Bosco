@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Asset's Management" max_length="40" name="x_763471_don_bosco_asset_s_management" sizeclass="6" type="collection">
+        <element label="Asset Amount" max_length="40" name="asset_amount" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Asset Name" max_length="80" name="asset_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Asset Type" max_length="40" name="asset_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Electrical Asset" value="electrical_asset"/>
+                <element inactive_on_update="false" label="None Electrical Asset" value="none_electrical_asset"/>
+                <element inactive_on_update="false" label="Sports Asset" value="sports_asset"/>
+                <element inactive_on_update="false" label="Vehicle's" value="vehicle_s"/>
+            </choice>
+        </element>
+        <element label="Balance Amount" max_length="40" name="balance_amount" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Buying Shop" max_length="40" name="buying_shop" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="usd" label="Currency denomination" max_length="40" name="currency_denomination" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CHF" sequence="0" value="chf"/>
+                <element inactive_on_update="false" label="EURO" sequence="1" value="euro"/>
+                <element inactive_on_update="false" label="POUND" sequence="2" value="pound"/>
+                <element inactive_on_update="false" label="SGD" sequence="3" value="sgd"/>
+                <element inactive_on_update="false" label="USD" sequence="4" value="usd"/>
+                <element inactive_on_update="false" label="YEN" sequence="5" value="yen"/>
+                <element inactive_on_update="false" label="INR" sequence="6" value="INR"/>
+            </choice>
+        </element>
+        <element label="Paid Amount" max_length="40" name="paid_amount" type="string"/>
+        <element label="Qty" max_length="40" name="qty" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Shop Address" max_length="240" name="shop_address" type="string"/>
+        <element label="Shop Number" max_length="40" name="shop_number" type="phone_number_e164"/>
+    </element>
+</database>
